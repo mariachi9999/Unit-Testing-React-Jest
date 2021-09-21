@@ -60,18 +60,19 @@ test('Probar nuestra promesa',async ()=>{
 
 // Funciones que se ejecutaran antes o despues de cada prueba
 // Útil por ejemplo para montar y desmontar una base de datos y testearla.
-afterEach(()=>{
-  console.log('Despues de cada prueba')
-})
 
-afterAll(()=>{
-  console.log('Despues de todas las pruebas')
-})
+// afterEach(()=>{
+//   console.log('Despues de cada prueba')
+// })
 
-beforeEach(()=>{
-  console.log('Antes de cada prueba')
-})
+// afterAll(()=>{
+//   console.log('Despues de todas las pruebas')
+// })
 
-beforeAll(()=>{
-  console.log('Antes de todas las pruebas')
-})
+// beforeEach(()=>{
+//   console.log('Antes de cada prueba')
+// })
+
+// beforeAll(()=>{
+//   console.log('Antes de todas las pruebas')
+// })
